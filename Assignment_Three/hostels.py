@@ -27,3 +27,14 @@ def show_visits(self):
         print("No visits recorded yet.")
     for visit in self.visits:
         print("-" + visit)
+
+
+Hostel = Hostel("Rubongoya")
+Resident = Resident("Ashiraf", "12B")
+Visitor1 = Visitor("Favour", "V15")
+Visitor2 = Visitor("Amooti", "V32")
+Visitor3 = Visitor("Sarah", "V220")
+Visitor4 = Visitor("Diana", "V145")
+Visitor5 = Visitor("Zauma", "v234")
+
+hostel.record_visit()
