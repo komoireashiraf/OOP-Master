@@ -1,15 +1,15 @@
-# Class for Visitor
-class Visitor:
-    def __init__(self, name, visitor_id):
-        self.name = name
-        self.visitor_id = visitor_id
-
-
 # Class for Resident
 class Resident:
     def __init__(self, name, room):
         self.name = name
         self.room = room
+
+
+# Class for Visitor
+class Visitor:
+    def __init__(self, name, visitor_id):
+        self.name = name
+        self.visitor_id = visitor_id
 
 
 # Class for Hostel
