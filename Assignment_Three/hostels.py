@@ -8,3 +8,8 @@ class Visitor:
     def __init__(self, name, Visitor_ID):
         self.name = name
         self.Visitor_ID
+
+
+class Hostel:
+    def __init__(self, name):
+        self.name = name
